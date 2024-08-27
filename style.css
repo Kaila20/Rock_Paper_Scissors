@@ -1,0 +1,99 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    
+}
+
+
+/* Whole comtainer for html, covers everything */
+.container{
+    padding: 2rem 7rem;
+    border-radius: 14px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.result_img{
+    display: flex;
+    column-gap: 7rem;
+    
+}
+
+/* User reult css - left screen */
+/* cpu result - right screen */
+.result_img img {
+    width: 100px;
+}
+
+.user_result img{
+    transform:rotate(90deg);
+    
+}
+
+.cpu_result{
+    transform:rotate(-90deg) rotateY(180deg);
+}
+
+.End_result{
+    text-align: center;
+    font-size: 3rem;
+    color:blueviolet;
+    margin-top: 1.4rem;
+}
+
+/* ......................... */
+
+/* Options imgs */
+.Options_Img_contain{
+    display:flex;
+    align-items:center;
+    margin-top: 2.5rem;
+    justify-content:space-between;
+    
+}
+
+
+/* Hover animations for oprions */
+.Options_Img:hover{
+    opacity: 1;
+}
+
+.Options_Img {
+    opacity: 0.5;
+    transition: opacity 0.5s ease;
+    cursor:pointer;
+}
+
+/*  .................... */
+
+
+.Options_Img img{
+    width:50px;
+    pointer-events: none;
+}
+
+.Options_Img p{
+    color:blueviolet;
+    font-size: 1.4rem;
+    margin-top:10%;
+    pointer-events: none;
+}
+
+
+/* ..................... */
+
+
+
+
+
